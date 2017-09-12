@@ -8,6 +8,8 @@ sudo apt-get install -y libxvidcore-dev libx264-dev
 sudo apt-get install -y libgtk2.0-dev
 sudo apt-get install -y libatlas-base-dev gfortran
 sudo apt-get install -y libprotobuf-dev
+sudo apt-get install -y libopenexr-dev
+sudo apt-get install -y libdc1394-22-dev
 
 cd ~
 git clone https://github.com/Itseez/opencv.git
