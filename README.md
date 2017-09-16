@@ -4,24 +4,26 @@ LTC Year 11 Face Detection/Recognition using OpenCV and AWS Rekognition
 Before you begin - you'll need the OpenCV libraries installed. Packages
 for Raspberry Pi Raspbian (stretch) are available here:
 
-    
+  https://github.com/mhoroschun/opencv-rpi-debs
 
-detect_opencv.py     - Basic example of using OpenCV with Haar Cascade
+## Starters/Examples:
+
+[detect_opencv.py]   - Basic example of using OpenCV with Haar Cascade
                        to do face/eye detection.
 
-recognise_opencv.py  - A modified version of the detect_opencv with the
+[recognise_opencv.py] - A modified version of the detect_opencv with the
                        starting point for doing face recognition. Not
                        working yet!
 
-recognise_aws.py     - Example of using AWS Rekognition to do more 
+[recognise_aws.py]   - Example of using AWS Rekognition to do more 
                        advanced face recognition in the 'cloud'. This
                        script needs an AWS account to work.
 
-ball_tracker.py      - Example of simple threshold-based ball tracking
+[ball_tracker.py]    - Example of simple threshold-based ball tracking
                        Update HSV threshold depending on colour of the
                        ball.
 
-Things to try:
+## Things to try next
 
   * Histogram Backprojection - So your robot could say:
 
