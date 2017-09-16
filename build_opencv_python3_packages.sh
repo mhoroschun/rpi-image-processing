@@ -37,5 +37,4 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D BUILD_EXAMPLES=ON .. 
 
 make -j4
-sudo make install
-sudo ldconfig
+sudo make package 
