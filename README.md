@@ -8,7 +8,7 @@ for Raspberry Pi Raspbian (stretch) are available here:
 
 ## Starters/Examples:
 
-[detect_opencv.py]   - Basic example of using OpenCV with Haar Cascade
+[detect_opencv.py](detect_opencv.py)   - Basic example of using OpenCV with Haar Cascade
                        to do face/eye detection.
 
 [recognise_opencv.py] - A modified version of the detect_opencv with the
